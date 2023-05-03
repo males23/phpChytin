@@ -1,3 +1,5 @@
+<?php session_start(); // $_SESSION ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,16 +14,23 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <div class="container">
-
     <?php include_once('header.php'); ?>
-        <h1>Site de Recettes !</h1>
+        
 
-        <!-- Plus facile à lire -->
-        <?php foreach(get_recipes($recipes, $limit) as $recipe) : ?>
+    <!-- Formulaire de connexion -->
+    
+    <?php include_once('login.php'); ?>
+
+    <!-- Fin du Formulaire de connexion -->
+
+    
+    <h1>Site de Recettes !</h1>
+    <!-- Plus facile a lire -->
+    <?php foreach(get_recipes($recipes, $limit) as $recipe) : ?>
             <article>
                 <h3><?php echo($recipe['title']); ?></h3>
                 <div><?php echo($recipe['recipe']); ?></div>
-                <i><?php echo(display_author($recipe['author'], $users)); ?></i>
+                <i><?php echo $recipe['author']; ?></i>
             </article>
         <?php endforeach ?>
     </div>
