@@ -2,19 +2,22 @@
 
 $users = [
     [
-        'full_name' => 'Mickaël Andrieu',
-        'email' => 'mickael.andrieu@exemple.com',
+        'full_name' => 'Mickael Andrieu',
+        'email' => 'user@exemple.com',
         'age' => 34,
+        'password' => 'devine',
     ],
     [
         'full_name' => 'Mathieu Nebra',
         'email' => 'mathieu.nebra@exemple.com',
         'age' => 34,
+        'password' => 'MiamMiam',
     ],
     [
-        'full_name' => 'Laurène Castor',
+        'full_name' => 'Laurene Castor',
         'email' => 'laurene.castor@exemple.com',
         'age' => 28,
+        'password' => 'laCasto28',
     ],
 ];
 
