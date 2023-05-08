@@ -25,7 +25,7 @@
 
     
     <h1>Site de Recettes !</h1>
-    <!-- Plus facile a lire -->
+    <!-- Plus facile a lire oui-->
     <?php foreach(get_recipes($recipes, $limit) as $recipe) : ?>
             <article>
                 <h3><?php echo($recipe['title']); ?></h3>
