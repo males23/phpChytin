@@ -41,10 +41,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `full_name`, `email`, `password`, `age`, `adresse_postale`) VALUES
-(1, 'Chytin MALELA', 'aime.malela@yahoo.fr', 'Bonjour', 32, '12 Rue balma, 34080 Montpellier'),
-(2, 'Agnes NDOUR', 'mamitasar@yahoo.fr', 'Chytin23', 34, ''),
+(1, 'Chytin MALELA', 'ai.male@yahoo.fr', 'Bonjour', 32, '12 Rue balma, 34080 Montpellier'),
+(2, 'Agnes NDOUR', 'maasar@yahoo.fr', 'Chytin23', 34, ''),
 (3, 'Roy MALELA', 'roy-m@gmail.com', 'Devine', 8, ''),
-(4, 'Charly Males', 'charly@yahoo.fr', 'Aussi90', 62, '');
+(4, 'Charly Males', 'charly90@yahoo.fr', 'Aussi90', 62, '');
 
 --
 -- Index pour les tables déchargées
