@@ -21,7 +21,7 @@
     
     <?php include_once('login.php'); ?>
 
-    <!-- Fin du Formulaire de connexion -->
+    <!-- Fin du Formulaires de connexion -->
 
     
     <h1>Site de Recettes !</h1>
