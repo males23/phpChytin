@@ -17,7 +17,7 @@
     <?php include_once('header.php'); ?>
         
 
-    <!-- Formulaire de connexion -->
+    <!-- Formulaire de connexions -->
     
     <?php include_once('login.php'); ?>
 
