@@ -24,7 +24,7 @@
     <!-- Fin du Formulaires de connexion -->
 
     
-    <h1>Site de Recettes !</h1>
+    <h1>Site de Recette !</h1>
     <!-- Plus facile a lire oui-->
     <?php foreach(get_recipes($recipes, $limit) as $recipe) : ?>
             <article>
